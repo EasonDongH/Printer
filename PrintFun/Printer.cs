@@ -12,7 +12,7 @@ namespace PrintFun
     {
         private System.Drawing.Printing.PrintPageEventArgs e;
         private int Top = 20;//提供一个基准Top，用户不提供Top时，就取该Top，每次有内容增加都会刷新
-        private int Left = 20;//提供一个基准Left，用户不提供Left时，就取该Left，每次有内容增加都会刷新
+        private int Left = 20;//提供一个基准Left，用户不提供Left时，就取该Left
         private int Interval = 5;//提供一个基准间隔值
 
         #region 构造函数重载
@@ -24,7 +24,7 @@ namespace PrintFun
         /// <param name="e">提供打印数据</param>
         /// <param name="Left">指定第一行数据的x</param>
         /// <param name="Top">指定第一行数据的y</param>
-        /// <param name="Interval">指定每行数据间隔值，默认：20像素</param>
+        /// <param name="Interval">指定每行数据间隔值</param>
         public Printer(System.Drawing.Printing.PrintPageEventArgs e, int Left, int Top,int Interval=20)
         {
             this.e = e;
@@ -36,10 +36,10 @@ namespace PrintFun
         /// <summary>
         /// 打印类
         /// 所需参数：System.Drawing.Printing.PrintPageEventArgs；每行内容间隔值
-        /// 默认值：第一行内容距左Left值：25像素；第一行内容距上Top值：25像素
+        /// 默认值：第一行内容距左Left值；第一行内容距上Top值
         /// </summary>
         /// <param name="e">提供打印数据</param>
-        /// <param name="Interval">指定每行数据间隔值，默认：20像素</param>
+        /// <param name="Interval">指定每行数据间隔值</param>
         public Printer(System.Drawing.Printing.PrintPageEventArgs e, int Interval)
         {
             this.e = e;            
@@ -49,7 +49,7 @@ namespace PrintFun
         /// <summary>
         /// 打印类
         /// 所需参数：System.Drawing.Printing.PrintPageEventArgs
-        /// 默认值：每行内容间隔值：25像素；第一行内容距左Left值：25像素；第一行内容距上Top值：25像素
+        /// 默认值：每行内容间隔值；第一行内容距左Left值；第一行内容距上Top值
         /// </summary>
         /// <param name="e">提供打印数据</param>
         public Printer(System.Drawing.Printing.PrintPageEventArgs e)
@@ -68,8 +68,8 @@ namespace PrintFun
         /// <param name="serialNum">流水号</param>
         /// <param name="left">指定条形码x</param>
         /// <param name="top">指定条形码y</param>
-        /// <param name="width">指定条形码宽度，默认值：240像素</param>
-        /// <param name="height">指定条形码高度，默认值：50像素</param>
+        /// <param name="width">指定条形码宽度</param>
+        /// <param name="height">指定条形码高度</param>
         public void DrawBarCode(string serialNum, int left, int top,int width,int height)
         {
             Fath.BarcodeX barCode = new Fath.BarcodeX();//创建条码生成对象
@@ -80,7 +80,7 @@ namespace PrintFun
 
             e.Graphics.DrawImage(barCode.Image(width, height), new Point(left, top));//画条形码 
             
-            this.Top += height+this.Interval;//默认相隔20像素
+            this.Top += height+this.Interval;
         }
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace PrintFun
 
             e.Graphics.DrawImage(barCode.Image(240, 50), new Point(left, top));//画条形码 
           
-            this.Top += 50+this.Interval;//默认相隔20像素
+            this.Top += 50+this.Interval;
         }
 
         /// <summary>
@@ -120,7 +120,7 @@ namespace PrintFun
 
             e.Graphics.DrawImage(barCode.Image(240, 50), new Point(this.Left, this.Top));//画条形码 
 
-            this.Top += 50 + this.Interval;//默认相隔20像素
+            this.Top += 50 + this.Interval;
         }
 
         #endregion
@@ -175,7 +175,7 @@ namespace PrintFun
         /// <summary>
         /// 根据链接获取二维码
         /// 所需参数：URL
-        /// 默认值：距左Left值：25像素；距上Top值：顺位值
+        /// 默认值：距左Left值；距上Top值：顺位值
         /// </summary>
         /// <param name="url">链接</param>
         /// <returns></returns>
