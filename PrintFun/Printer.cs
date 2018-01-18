@@ -298,7 +298,7 @@ namespace PrintFun
                 this.e.Graphics.DrawString(contentList[i], contentFont, contentBrush, left, nextTop , new StringFormat());
                 nextTop += height;
             }
-            Top += height * contentList.Count + this.Interval + 10;
+            Top += height * contentList.Count + this.Interval ;
         }
 
         /// <summary>
@@ -318,7 +318,7 @@ namespace PrintFun
                 this.e.Graphics.DrawString(contentList[i], contentFont, contentBrush, Left, nextTop, new StringFormat());
                 nextTop += height;
             }
-            Top += height * contentList.Count + this.Interval + 10;
+            Top += height * contentList.Count + this.Interval ;
         }
 
         /// <summary>
@@ -339,7 +339,7 @@ namespace PrintFun
                 this.e.Graphics.DrawString(contentList[i], contentFont, Brushes.Black, Left, nextTop, new StringFormat());
                 nextTop += height;
             }
-            Top += height * contentList.Count + this.Interval + 10;
+            Top += height * contentList.Count + this.Interval ;
         }
 
         /// <summary>
@@ -358,7 +358,7 @@ namespace PrintFun
                 this.e.Graphics.DrawString(contentList[i], contentFont, Brushes.Black, Left, nextTop, new StringFormat());
                 nextTop += height;
             }
-            Top += height * contentList.Count + this.Interval + 10;
+            Top += height * contentList.Count + this.Interval ;
         }
         #endregion
         #endregion
