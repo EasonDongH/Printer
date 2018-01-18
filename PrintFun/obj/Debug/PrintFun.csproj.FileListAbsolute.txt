@@ -1,0 +1,7 @@
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\bin\Debug\PrintFun.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\bin\Debug\PrintFun.pdb
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\bin\Debug\BarcodeX.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\bin\Debug\ThoughtWorks.QRCode.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\obj\Debug\PrintFun.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\obj\Debug\PrintFun.pdb
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintFun\obj\Debug\PrintFun.csprojResolveAssemblyReference.cache

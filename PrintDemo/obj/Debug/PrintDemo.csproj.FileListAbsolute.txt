@@ -1,0 +1,13 @@
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\PrintDemo.exe.config
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\PrintDemo.exe
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\PrintDemo.pdb
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\PrintFun.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\BarcodeX.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\ThoughtWorks.QRCode.dll
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\bin\Debug\PrintFun.pdb
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.csprojResolveAssemblyReference.cache
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.Form1.resources
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.Properties.Resources.resources
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.csproj.GenerateResource.Cache
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.exe
+C:\2Study\CSharpWorkSpace\VS Code\PrintDemo\PrintDemo\obj\Debug\PrintDemo.pdb
